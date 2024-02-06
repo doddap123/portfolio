@@ -4,7 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import covidImg from "@/public/COVID-19_outbreak_USA_per_capita_cases_map_counties.svg";
 import swagImg from "@/public/swag2.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import campusImg from "@/public/campus.png";
+import boltImg from "@/public/bolt.png";
+import listr from "@/public/listr.png";
 
 export const links = [
   {
@@ -67,6 +69,7 @@ export const projectsData = [
       "Unearthing COVID-19 insights through API-driven visualizations from susceptibility datasets.",
     tags: ["Pandas", "Numpy", "REST API", "Matplotlib"],
     imageUrl: covidImg,
+    url: "https://www.youtube.com/watch?v=VjOpc6gOzrY"
   },
   {
     title: "HackGT Swag Shop",
@@ -74,13 +77,32 @@ export const projectsData = [
       "HackGT Swag Shop allowing 1500+ participants to purchase HackGT merchandise using their points.",
     tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
     imageUrl: swagImg,
+    url: "https://github.com/HackGT/prizes"
+
   },
   {
     title: "Campus Discovery",
     description:
       "Your all-in-one tool for effortless event exploration and management on campus",
     tags: ["React", "Next.js", "CSS", "MongoDB"],
-    imageUrl: covidImg,
+    imageUrl: campusImg,
+    url: "https://github.com/doddap123/campus-discovery"
+  },
+  {
+    title: "Listr",
+    description:
+      "Listr allows for users to rate and track their favorite music and shows!",
+    tags: ["React", "HTML/CSS", "Spotify API", "MongoDB"],
+    imageUrl: listr,
+    url: "https://github.com/doddap123/listr"
+  },
+  {
+    title: "Bolt",
+    description:
+      "Bolt allows for participants to rent hardware for the duration of HackGT!",
+    tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
+    imageUrl: boltImg,
+    url: "https://github.com/HackGT/bolt"
   },
   
 ] as const;

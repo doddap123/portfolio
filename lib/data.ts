@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import covidImg from "@/public/covid.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "COVID-19 Susceptibility: Health Factors Study",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked to find the correlation between COVID and various health factors like obesity and smoking. I visualized it with various insightful data visualizations.",
+    tags: ["Pandas", "Numpy", "BeautifulSoup", "REST API", "Matplotlib", "Seaborn", "Plotly"],
+    imageUrl: covidImg,
   },
   {
-    title: "rmtDev",
+    title: "HackGT Swag Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Implemented a prizes website using the MERN stack, enabling over 1500 participants to redeem accumulated points for items, enhancing engagement and motivation throughout the hackathon",
+    tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
+    imageUrl: covidImg,
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: covidImg,
   },
 ] as const;
 

@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import covidImg from "@/public/covid.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import covidImg from "@/public/COVID-19_outbreak_USA_per_capita_cases_map_counties.svg";
+import swagImg from "@/public/swag2.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,26 +62,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "COVID-19 Susceptibility: Health Factors Study",
+    title: "COVID-19 Susceptibility",
     description:
-      "I worked to find the correlation between COVID and various health factors like obesity and smoking. I visualized it with various insightful data visualizations.",
-    tags: ["Pandas", "Numpy", "BeautifulSoup", "REST API", "Matplotlib", "Seaborn", "Plotly"],
+      "Unearthing COVID-19 insights through API-driven visualizations from susceptibility datasets.",
+    tags: ["Pandas", "Numpy", "REST API", "Matplotlib"],
     imageUrl: covidImg,
   },
   {
     title: "HackGT Swag Shop",
     description:
-      "Implemented a prizes website using the MERN stack, enabling over 1500 participants to redeem accumulated points for items, enhancing engagement and motivation throughout the hackathon",
+      "HackGT Swag Shop allowing 1500+ participants to purchase HackGT merchandise using their points.",
     tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
-    imageUrl: covidImg,
+    imageUrl: swagImg,
   },
   {
-    title: "Word Analytics",
+    title: "Campus Discovery",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Your all-in-one tool for effortless event exploration and management on campus",
+    tags: ["React", "Next.js", "CSS", "MongoDB"],
     imageUrl: covidImg,
   },
+  
 ] as const;
 
 export const skillsData = [

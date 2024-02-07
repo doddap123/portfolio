@@ -38,7 +38,7 @@ const Intro: React.FC = () => {
                             height="192"
                             quality="95"
                             priority = {true}
-                            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-x1"
+                            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-gray shadow-x1"
                         />
                     </motion.div>
                     <motion.span className="absolute bottom-0 right-0 text-4xl"
@@ -64,8 +64,7 @@ const Intro: React.FC = () => {
                 <span className="font-bold">Hey, I&apos;m Pranit.</span> I&apos;m a{" "}
                 <span className="font-bold">computer science student</span> at{" "}
                 <span className="font-bold">Georgia Tech</span>. I enjoy
-                building <span className="italic">sites & apps</span>. My focus is{" "}
-                <span className="underline">React (Next.js)</span>.
+                 <span className="italic"> fullstack development, info vis,</span> and<span className="italic">  AI/ML</span>. 
             </motion.h1>
 
             <motion.div
@@ -87,15 +86,15 @@ const Intro: React.FC = () => {
                     Contact me here <BsArrowRight />
                 </Link>
                 <a
-                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                    href="/CV.pdf"
+                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack border border-gray"
+                    href="/resume.pdf"
                     download
                 >
                     Download Résumé{" "}
                     <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
                 </a>
                 <a
-                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack border border-gray"
                     href="https://www.linkedin.com/in/pranit-dodda"
                     target="_blank"
                 >
@@ -103,7 +102,7 @@ const Intro: React.FC = () => {
                 </a>
 
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack border border-gray"
                     href="https://github.com/doddap123"
                     target="_blank"
                 >

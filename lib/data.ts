@@ -91,7 +91,7 @@ export const projectsData = [
   {
     title: "HackGT Swag Shop",
     description:
-      "HackGT Swag Shop allowing 1500+ participants to purchase HackGT merchandise using their points.",
+      "HackGT Swag Shop allows for 1500+ participants to purchase HackGT merchandise using their points.",
     tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
     imageUrl: swagImg,
     url: "https://github.com/HackGT/prizes"
@@ -116,7 +116,7 @@ export const projectsData = [
   {
     title: "Bolt",
     description:
-      "Bolt allows for participants to rent hardware for the duration of HackGT!",
+      "Bolt allows for 1500+ participants to rent hardware for the duration of HackGT!",
     tags: ["React", "TypeScript", "Express.js", "MongoDB", "Node.js"],
     imageUrl: boltImg,
     url: "https://github.com/HackGT/bolt"
@@ -124,7 +124,7 @@ export const projectsData = [
   {
     title: "HipHop2020 Innovation Archive",
     description:
-      "Your all-in-one tool for effortless event exploration and management on campus.",
+      "Archival site links Georgia Tech's 900+ hip hop records to a dynamic website!",
     tags: ["Omeka", "HTML/CSS", "REST API"],
     imageUrl: fourfourImg,
     url: "https://hiphop2020.lmc.gatech.edu"

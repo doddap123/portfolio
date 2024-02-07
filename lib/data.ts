@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { AiOutlineDatabase } from "react-icons/ai";
+import { GiMagnifyingGlass } from "react-icons/gi";
 import covidImg from "@/public/COVID-19_outbreak_USA_per_capita_cases_map_counties.svg";
 import swagImg from "@/public/swag2.png";
 import campusImg from "@/public/campus.png";
+import fourfourImg from "@/public/fourfour.png";
 import boltImg from "@/public/bolt.png";
 import listr from "@/public/listr.png";
 
@@ -37,28 +38,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Undergraduate Researcher for VisualizaXiong Lab",
+    location: "Atlanta, GA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Contributing to ongoing research under Dr. Cindy Xiong Bearfield, examining visual complexity across taxonomy levels in various visualization types.",
+    icon: React.createElement(GiMagnifyingGlass),
+    date: "January 2024 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer Intern @ AT&T",
+    location: "Atlanta, GA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Deployed an efficient bot platform using Microsoft Bot Framework for MS Azure and TypeScript, enabling alerts to be delivered to 20+ employees within the Performance Engineering Group regarding critical inconsistencies in system CPU usage",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "June 2023 - August 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Tech Team Software Developer @ Hexlabs Inc.",
+    location: "Atlanta, GA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Fullstack developer(MERN Stack) for the Hexlabs Tech Team, working on the development of the Hexlabs tools for hackathons such as HackGT and Horizons and tools such as Bolt and Swag Shop.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022 - present",
+  },
+  {
+    title: "Data Integration Engineer for FourFourBeat Project",
+    location: "Atlanta, GA",
+    description:
+      "Implemented Georgia Tech's archive of over 900 hip hop records into algorithm and archival website.",
+    icon: React.createElement(AiOutlineDatabase),
+    date: "January 2022 - May 2023",
+  },
+  {
+    title: "Software Engineer Intern @ Walmart Global Tech",
+    location: "Bentonville, AR",
+    description:
+      "Innovated supply order management processes by developing a barcode generator using Java and Spring Boot for testing global trade item numbers (GTINs) and integrating it into an API using Insomnia and Spring Boot, resulting in a 15% increase in accuracy of product identification, streamlined operations, and enhanced user accessibility.",
+    icon: React.createElement(CgWorkAlt),
+    date: "January 2021 - May 2021",
   },
 ] as const;
 
@@ -81,20 +98,20 @@ export const projectsData = [
 
   },
   {
-    title: "Campus Discovery",
-    description:
-      "Your all-in-one tool for effortless event exploration and management on campus",
-    tags: ["React", "Next.js", "CSS", "MongoDB"],
-    imageUrl: campusImg,
-    url: "https://github.com/doddap123/campus-discovery"
-  },
-  {
     title: "Listr",
     description:
       "Listr allows for users to rate and track their favorite music and shows!",
     tags: ["React", "HTML/CSS", "Spotify API", "MongoDB"],
     imageUrl: listr,
     url: "https://github.com/doddap123/listr"
+  },
+  {
+    title: "Campus Discovery",
+    description:
+      "Your all-in-one tool for effortless event exploration and management on campus.",
+    tags: ["React", "Next.js", "CSS", "MongoDB"],
+    imageUrl: campusImg,
+    url: "https://github.com/doddap123/campus-discovery"
   },
   {
     title: "Bolt",
@@ -104,6 +121,14 @@ export const projectsData = [
     imageUrl: boltImg,
     url: "https://github.com/HackGT/bolt"
   },
+  {
+    title: "HipHop2020 Innovation Archive",
+    description:
+      "Your all-in-one tool for effortless event exploration and management on campus.",
+    tags: ["Omeka", "HTML/CSS", "REST API"],
+    imageUrl: fourfourImg,
+    url: "https://hiphop2020.lmc.gatech.edu"
+  },
   
 ] as const;
 
@@ -112,19 +137,20 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Java",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Express.js",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
+  "MS Azure",
+  "Python",
+  "SQL",
   "Framer Motion",
+  "Swift",
+  "Pandas",
+  "Numpy",
 ] as const;

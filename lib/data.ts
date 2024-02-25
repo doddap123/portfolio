@@ -8,6 +8,7 @@ import campusImg from "@/public/campus.png";
 import fourfourImg from "@/public/fourfour.png";
 import boltImg from "@/public/bolt.png";
 import listr from "@/public/listr.png";
+import NORPimg from "@/public/NORP.png";
 
 export const links = [
   {
@@ -128,6 +129,14 @@ export const projectsData = [
     tags: ["Omeka", "HTML/CSS", "REST API"],
     imageUrl: fourfourImg,
     url: "https://hiphop2020.lmc.gatech.edu"
+  },
+  {
+    title: "NORP",
+    description:
+      "Developed data visualizations in effort to increase effectiveness of nonprofit organizations as part of the Nonprofit Organization Research Panel",
+    tags: ["Python", "D3.js", "Seaborn", "Matplotlib", "mySQL"],
+    imageUrl: NORPimg,
+    url: "https://drive.google.com/file/d/1S9Z9McLEEcTZ4gP8CCnfX52alkTKseFd/view?usp=sharing"
   },
   
 ] as const;
